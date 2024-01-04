@@ -80,8 +80,7 @@ const SliderHue = styled.input(
       .fill(1)
       .map(
         (_, i, a) =>
-          `hsl(${
-            min + ((max - min) / a.length) * i
+          `hsl(${min + ((max - min) / a.length) * i
           }, ${saturation}%, ${lightness}%)`,
       )
       .join(', ')})`,
@@ -260,7 +259,7 @@ export const Sliders = ({ color, updateColor }) => {
             type="range"
             property="hue"
             datatype="number"
-            aria-label="Hue"
+            aria-label="Teinte"
             onChange={(e) => {
               const newHue = e.currentTarget.value
               const color = chroma(newHue, saturation, lightness, 'hsl')
@@ -283,7 +282,7 @@ export const Sliders = ({ color, updateColor }) => {
           type="number"
           property="saturationNumber"
           datatype="number"
-          aria-label="Saturation number"
+          aria-label="Indice de saturation"
           value={saturationValue}
           min={0}
           max={100}
@@ -330,7 +329,7 @@ export const Sliders = ({ color, updateColor }) => {
           type="number"
           property="lightnessNumber"
           datatype="number"
-          aria-label="Lightness number"
+          aria-label="Indice de luminosité"
           value={lightnessValue}
           min={0}
           max={100}
@@ -354,7 +353,7 @@ export const Sliders = ({ color, updateColor }) => {
             type="range"
             property="lightness"
             datatype="number"
-            aria-label="Lightness"
+            aria-label="Luminosité"
             onChange={(e) => {
               const newLightness = e.currentTarget.value / 100
               const color = chroma(hue, saturation, newLightness, 'hsl')

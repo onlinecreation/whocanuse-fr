@@ -27,9 +27,9 @@ export const Background = ({
     <ColourControlBackground>
       <ColourHeader>
         {' '}
-        <SmallText>Background</SmallText>
+        <SmallText>Fond</SmallText>
         <Tippy
-          content="Switch background and text colors"
+          content="Inverser les couleurs de l'arrière-plan et du texte"
           duration="0"
           arrow={true}
           placement="top"
@@ -44,7 +44,7 @@ export const Background = ({
               src={switchIcon}
               width="14px"
               height="10px"
-              alt="Switch colors"
+              alt="Inverser les couleurs"
             />
           </SwitchIcon>
         </Tippy>

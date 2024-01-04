@@ -53,29 +53,22 @@ const Author = styled('div')({
 export const About = () => (
   <div>
     <AboutWrapper>
-      <Heading margin="0 0 20px 0">What is whocanuse.com?</Heading>
+      <Heading margin="0 0 20px 0">Contraste•OnlineCreation ?</Heading>
       <Text>
-        It's a tool that brings attention and understanding to how color
-        contrast can affect different people with visual impairments.
+        Contraste•OnlineCreation est la traduction française de <a href="https://www.whocanuse.com/" target="_blank" rel="noopener noreferrer">WhoCanUse.com</a>, un outil qui permet d'attirer l'attention et de comprendre comment le contraste des couleurs peut affecter différentes personnes souffrant de déficiences visuelles.
       </Text>
 
       <Text>
-        The{' '}
-        <Link fontWeight="bold" href="https://www.w3.org/TR/WCAG21/" isExternal>
-          Web Content Accessibility Guidelines (WCAG)
-        </Link>{' '}
-        covers a wide range of recommendations for making Web content more
-        accessible. Just a tiny part of making the web more accessible is
-        accommodating for those with a form of blindness or low vision.
+        Les{' '}<Link fontWeight="bold" href="https://www.w3.org/Translations/WCAG21-fr/" target="_blank" rel="noopener noreferrer">règles pour l’accessibilité des contenus Web (WCAG)</Link>{' '}
+        couvrent un large éventail de recommandations visant à rendre le contenu du web plus accessible. L'adaptation aux personnes atteintes d'une forme de cécité ou de malvoyance n'est qu'une infime partie de l'amélioration de l'accessibilité du web.
       </Text>
       <Text>
-        The standard grading system is a great start, but I thought I'd try to
-        humanize the people who are affected by the different grades.
+        Le système de notation standard (AA et AAA) est un bon début, mais l'objectif de WhoCanUse est d'humaniser les personnes qui sont affectées par les différentes notes.
       </Text>
 
-      <MediumText>Where did you get the info from?</MediumText>
+      <MediumText>D'où viennent ces informations ?</MediumText>
       <Text>
-        The percentages are sourced from both{' '}
+        Les percentages viennent de{' '}
         <Link
           fontWeight="bold"
           href="https://www.colour-blindness.com"
@@ -83,7 +76,7 @@ export const About = () => (
         >
           colour-blindness.com
         </Link>{' '}
-        and{' '}
+        et{' '}
         <Link
           fontWeight="bold"
           href="https://www.visionaustralia.org/"
@@ -91,34 +84,26 @@ export const About = () => (
         >
           Vision Australia
         </Link>
-        . P.S. You're both the best, thankyou ✌️
+        . Merci à eux ✌️
       </Text>
 
-      <MediumText>Your maths is off, it doesn't add up to 100%...?</MediumText>
+      <MediumText>Votre calcul est erroné, le total n'est pas de 100 % !</MediumText>
       <Text>
-        Good eyes! (haha) The population data provided are estimates for
-        individual impairments, and don't cover the vast amount of visual
-        impairments in the world. This is to give you not just an understanding
-        of <strong>how</strong> color contrast affects different people but also{' '}
-        <strong>who</strong> it can affect.
+        Bien vu ! (haha) Les données démographiques fournies sont des estimations pour des déficiences individuelles et ne couvrent pas le grand nombre de déficiences visuelles dans le monde. Il s'agit de vous faire comprendre non seulement{' '}<strong>comment</strong>{' '}le contraste des couleurs affecte différentes personnes, mais aussi{' '}<strong>qui</strong>{' '}il peut affecter.
       </Text>
 
       <MediumText>
-        I'm fascinated by how this works, can you tell me more?
+        Je suis fasciné par le fonctionnement de cet outil, pouvez-vous m'en dire plus ?
       </MediumText>
       <Text>
-        Of course! There's a few stages to get to this point. First we figure
-        out the contrast between two HEX values. For this we're using a plugin
-        called{' '}
+        Bien sûr ! Le processus se déroule en plusieurs étapes. Tout d'abord, nous déterminons le contraste entre deux valeurs HEX. Pour cela, nous utilisons un plugin appelé{' '}
         <Link fontWeight="bold" href="https://vis4.net/chromajs/" isExternal>
           Chroma.js
         </Link>{' '}
-        - this does the heavy lifting for us. Once we have the ratio (and using
-        font size and font weight) we can apply a grade to that specific color
-        combo.
+        qui fait le gros du travail pour nous. Une fois que nous avons le ratio (et en utilisant la taille et le poids de la police), nous pouvons appliquer une note à cette combinaison de couleurs spécifique.
       </Text>
       <Text>
-        For the color blindness options we're using another plugin aptly called{' '}
+        Pour les options de daltonisme, nous utilisons un autre plugin appelé{' '}
         <Link
           fontWeight="bold"
           href="https://github.com/skratchdot/color-blind"
@@ -126,26 +111,20 @@ export const About = () => (
         >
           Color-blind
         </Link>{' '}
-        that converts our HEX codes in to ones that would be seen by people with
-        the different impairments, then we can apply our same process to obtain
-        the color ratios and determine their grade.
+        qui convertit nos codes HEX en codes qui seraient vus par les personnes atteintes des différentes déficiences, puis nous pouvons appliquer notre même processus pour obtenir les rapports de couleur et déterminer leur note.
       </Text>
       <Text>
-        For cataracts, glaucoma, low vision, and the situational events I've
-        personally created simulations to help identify their rating.
+        Pour la cataracte, le glaucome, la basse vision et les événements situationnels, les simulations ont été créées par WhoCanUse.com.
       </Text>
 
-      <MediumText>What does a failing grade mean?</MediumText>
+      <MediumText>Que signifie une note insuffisante ?</MediumText>
       <Text>
-        The grading uses a combination of color contrast, text size and text
-        weight. A fail simply means that the color combination offers some
-        visual strain to the person seeing it and should be avoided if possible.
+        Le classement utilise une combinaison du contraste des couleurs, de la taille et du poids du texte. Un échec signifie simplement que la combinaison de couleurs représente une contrainte visuelle pour la personne qui la voit et qu'elle doit être évitée dans la mesure du possible.
       </Text>
 
-      <MediumText>Can I help contribute?</MediumText>
+      <MediumText>Puis-je apporter ma contribution ?</MediumText>
       <Text>
-        Absolutely! Feel free to fork the repo and submit a PR with any helpful
-        additions or changes.
+        Absolument ! N'hésitez pas à forker le dépôt GitHub et à soumettre une PR pour tout ajout ou changement utile.
       </Text>
     </AboutWrapper>
     <Author>
@@ -153,11 +132,21 @@ export const About = () => (
         <Link
           fontWeight="bold"
           href="https://github.com/coreyginnivan/whocanuse/"
-          aria-label="coreyginnivan/whocanuse on GitHub"
+          aria-label="coreyginnivan/whocanuse sur GitHub"
           isExternal
         >
-          GitHub
+          GitHub (WhoCanUse.com)
         </Link>
+
+        <Link
+          fontWeight="bold"
+          href="https://github.com/onlinecreation/whocanuse-fr"
+          aria-label="onlinecreation/whocanuse-fr sur GitHub"
+          isExternal
+        >
+          GitHub (Contraste•OnlineCreation)
+        </Link>
+
         <Link
           fontWeight="bold"
           style={{ marginLeft: '10px' }}
@@ -165,11 +154,21 @@ export const About = () => (
           isExternal
           aria-label="Sponsor @coreyginnivan on GitHub"
         >
-          Sponsor
+          Donner à WhoCanUse.com
+        </Link>
+
+        <Link
+          fontWeight="bold"
+          style={{ marginLeft: '10px' }}
+          href="https://onlinecreation.pro"
+          isExternal
+          aria-label="OnlineCreation.pro"
+        >
+          OnlineCreation • Agence web à Bordeaux
         </Link>
       </ButtonWrapper>
       <div style={{ display: 'flex' }}>
-        <Text>Created &amp; maintained by</Text>
+        <Text>Créé &amp; maintenu par</Text>
         <Link
           href="https://twitter.com/coreyginnivan"
           isExternal
@@ -187,6 +186,15 @@ export const About = () => (
             }}
           />
           @CoreyGinnivan
+        </Link>
+        <Text>Traduit en français par</Text>
+        <Link
+          href="https://onlinecreation.pro"
+          isExternal
+          style={{ marginLeft: '10px' }}
+          fontWeight="bold"
+        >
+          OnlineCreation
         </Link>
       </div>
     </Author>

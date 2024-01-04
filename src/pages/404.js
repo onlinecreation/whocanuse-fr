@@ -73,10 +73,9 @@ const NotFoundPage = () => (
       <Logo style={{ marginBottom: '100px' }} />
       <h1 style={{ marginBottom: '20px' }}>Mother of gerd...</h1>
       <p>
-        You've stumbled across a place you shouldn't have. If you think this
-        should be a page, please get in touch!
+        Vous êtes tombé sur un endroit où vous n'auriez pas dû vous trouver. Si vous pensez que cette page devrait exister, n'hésitez pas à nous contacter !
       </p>
-      <a href="/">Take me home!</a>
+      <a href="/">Retour à l'accueil</a>
     </TrippyWrapper>
   </Layout>
 )

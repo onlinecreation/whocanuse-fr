@@ -16,7 +16,7 @@ export const Config = ({
       <FieldWrapper>
         <TextSize
           type="number"
-          name="text size"
+          name="taille du texte"
           min="10"
           max="60"
           value={fontSize}
@@ -38,7 +38,7 @@ export const Config = ({
             checked={bold}
             onChange={() => setBold(!bold)}
           />
-          <SmallText htmlFor="bold">Bold</SmallText>
+          <SmallText htmlFor="bold">Gras</SmallText>
         </CheckboxWrapper>
       </FieldWrapper>
     </Fields>

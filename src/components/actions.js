@@ -72,7 +72,7 @@ export const Actions = ({
             type="text"
             id="permalink"
             name="permalink"
-            value={`whocanuse.com/${linkPath(
+            value={`contraste.onlinecreation.pro/${linkPath(
               background,
               foreground,
               fontSize,
@@ -88,15 +88,15 @@ export const Actions = ({
         </Tippy>
       </form>
       <TwitterShareButton
-        url={'https://whocanuse.com'}
+        url={'https://contraste.onlinecreation.pro'}
         options={{
-          text: `An easy-to-use tool that delivers a breakdown of which vision types can see your color combination`,
-          via: 'CoreyGinnivan',
+          text: `Un outil facile à utiliser qui permet de savoir quels types de vision peuvent voir votre combinaison de couleurs.`,
+          via: 'onlinecreation',
         }}
       />
       <iframe
         title="Github Star"
-        src="https://ghbtns.com/github-btn.html?user=coreyginnivan&repo=whocanuse&type=star&count=true"
+        src="https://ghbtns.com/github-btn.html?user=onlinecreation&repo=whocanuse-fr&type=star&count=true"
         frameBorder="0"
         scrolling="0"
         width="60"

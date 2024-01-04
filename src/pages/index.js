@@ -167,7 +167,7 @@ const IndexPage = () => {
           }}
         />
         <ContentWrapper>
-          <Heading align="left">Who can use this color combination?</Heading>
+          <Heading align="left">Qui peut utiliser cette combinaison de couleurs ?</Heading>
           <StatsWrapper>
             <SmallInfoBars
               foreground={foreground.color.hex()}
@@ -178,8 +178,8 @@ const IndexPage = () => {
           </StatsWrapper>
           <VisionTable>
             <VisionRow
-              name="Regular Vision (Trichromatic)"
-              description="Can distinguish all three primary color, little to no blurriness"
+              name="Vision courante (trichromatique)"
+              description="Peut distinguer les trois couleurs primaires, avec peu ou pas de flou."
               percent="68"
               foreground={foreground.color.hex()}
               background={background.color.hex()}
@@ -187,9 +187,9 @@ const IndexPage = () => {
               fontSize={fontSize.value}
             />
             <VisionRow
-              name="Protanomaly"
+              name="Protanomalie"
               simType="protanomaly"
-              description="Reduced sensitivity to red - trouble distinguishing reds and greens"
+              description="Sensibilité réduite au rouge - difficulté à distinguer les rouges et les verts"
               percent="1.3"
               foreground={foreground.color.hex()}
               background={background.color.hex()}
@@ -197,9 +197,9 @@ const IndexPage = () => {
               fontSize={fontSize.value}
             />
             <VisionRow
-              name="Protanopia"
+              name="Protanopie"
               simType="protanopia"
-              description="Red blind - Can’t see reds at all"
+              description="Cécité au rouge - Ne voit pas du tout les rouges"
               percent="1.5"
               foreground={foreground.color.hex()}
               background={background.color.hex()}
@@ -207,9 +207,9 @@ const IndexPage = () => {
               fontSize={fontSize.value}
             />
             <VisionRow
-              name="Deuteranomaly"
+              name="Deutéranomalie"
               simType="deuteranomaly"
-              description="Reduced sensitivity to green - Trouble distinguishing reds and greens"
+              description="Sensibilité réduite au vert - Difficulté à distinguer les rouges et les verts"
               percent="5.3"
               foreground={foreground.color.hex()}
               background={background.color.hex()}
@@ -217,9 +217,9 @@ const IndexPage = () => {
               fontSize={fontSize.value}
             />
             <VisionRow
-              name="Deuteranopia"
+              name="Deutéranopie"
               simType="deuteranopia"
-              description="Green blind - Can’t see greens at all"
+              description="Cécité verte - Ne voit pas du tout les verts"
               percent="1.2"
               foreground={foreground.color.hex()}
               background={background.color.hex()}
@@ -227,9 +227,9 @@ const IndexPage = () => {
               fontSize={fontSize.value}
             />
             <VisionRow
-              name="Tritanomaly"
+              name="Tritanomalie"
               simType="tritanomaly"
-              description="Trouble distinguishing blues and greens, and yellows and reds"
+              description="Difficulté à distinguer les bleus et les verts, les jaunes et les rouges"
               percent="0.02"
               foreground={foreground.color.hex()}
               background={background.color.hex()}
@@ -237,9 +237,9 @@ const IndexPage = () => {
               fontSize={fontSize.value}
             />
             <VisionRow
-              name="Tritanopia"
+              name="Tritanopie"
               simType="tritanopia"
-              description="Unable to distinguish between blues and greens, purples and reds, and yellows and pinks"
+              description="Incapacité à distinguer les bleus et les verts, les violets et les rouges, les jaunes et les roses"
               percent="0.03"
               foreground={foreground.color.hex()}
               background={background.color.hex()}
@@ -247,9 +247,9 @@ const IndexPage = () => {
               fontSize={fontSize.value}
             />
             <VisionRow
-              name="Achromatomaly"
+              name="Achromatomie"
               simType="achromatomaly"
-              description="Partial color blindness, sees the absence of most colors"
+              description="Le daltonisme partiel, qui voit l'absence de la plupart des couleurs."
               percent="0.09"
               foreground={foreground.color.hex()}
               background={background.color.hex()}
@@ -257,9 +257,9 @@ const IndexPage = () => {
               fontSize={fontSize.value}
             />
             <VisionRow
-              name="Achromatopsia"
+              name="Achromatopsie"
               simType="achromatopsia"
-              description="Complete color blindness, can only see shades"
+              description="Cécité totale des couleurs, ne voit que les nuances"
               percent="0.05"
               foreground={foreground.color.hex()}
               background={background.color.hex()}
@@ -267,9 +267,9 @@ const IndexPage = () => {
               fontSize={fontSize.value}
             />
             <VisionRow
-              name="Cataracts"
+              name="Cataractes"
               simType="cataracts"
-              description="Clouding of the lens in the eye that affects vision"
+              description="Trouble du cristallin de l'œil qui affecte la vision"
               percent="33"
               foreground={foreground.color.hex()}
               background={background.color.hex()}
@@ -278,9 +278,9 @@ const IndexPage = () => {
               contrastModifier={-0.2}
             />
             <VisionRow
-              name="Glaucoma"
+              name="Glaucome"
               simType="glaucoma"
-              description="Slight vision loss"
+              description="Légère perte de vision"
               percent="2"
               foreground={foreground.color.hex()}
               background={background.color.hex()}
@@ -288,9 +288,9 @@ const IndexPage = () => {
               fontSize={fontSize.value}
             />
             <VisionRow
-              name="Low Vision"
+              name="Basse vision"
               simType="lowvision"
-              description="Decreased and/or blurry vision (not fixable by usual means such as glasses)"
+              description="Diminution et/ou trouble de la vision (non corrigeable par les moyens habituels tels que les lunettes)"
               percent="31"
               foreground={foreground.color.hex()}
               background={background.color.hex()}
@@ -300,13 +300,13 @@ const IndexPage = () => {
             />
           </VisionTable>
           <Text fontWeight="600" fontSize="lg" mb={4} mt={8}>
-            Situational Events
+            Situations
           </Text>
           <VisionTableAlt>
             <VisionRowAlt
-              name="Direct Sunlight"
+              name="Lumière directe du soleil"
               simType="sunlight"
-              description="Simulating the effect of direct sunlight on a phone or screen"
+              description="Simuler l'effet de la lumière directe du soleil sur un téléphone ou un écran"
               foreground={foreground.color.hex()}
               background={background.color.hex()}
               contrastModifier={-0.4}
@@ -314,9 +314,9 @@ const IndexPage = () => {
               fontSize={fontSize.value}
             />
             <VisionRowAlt
-              name="Night Shift Mode"
+              name="Mode nuit"
               simType="nightshift"
-              description="Simulating the effect of night mode on a phone or screen"
+              description="Simuler l'effet du mode nuit sur un téléphone ou un écran"
               foreground={foreground.color.hex()}
               background={background.color.hex()}
               contrastModifier={-0.1}

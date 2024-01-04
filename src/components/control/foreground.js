@@ -64,7 +64,7 @@ export const Foreground = ({
   return (
     <ColourControlForeground>
       <ColourHeader>
-        <SmallText>Text</SmallText>
+        <SmallText>Texte</SmallText>
         <Config
           fontSize={fontSize}
           setFontDragInfo={setFontDragInfo}

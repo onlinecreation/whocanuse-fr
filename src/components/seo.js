@@ -16,18 +16,18 @@ export default function SEO({ title, background, foreground }) {
       <meta name="theme-color" content={background.color.hex() || '#fff'} />
       <meta
         name="description"
-        content="A tool that brings attention and understanding to how color contrast can affect people with different visual impairments."
+        content="Un outil qui sensibilise à la manière dont le contraste des couleurs peut affecter les personnes souffrant de différentes déficiences visuelles et qui permet de mieux les comprendre."
       />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://whocanuse.com" />
-      <meta property="og:title" content="WhoCanUse" />
+      <meta property="og:url" content="https://contraste.onlinecreation.pro" />
+      <meta property="og:title" content="Contraste•OnlineCreation" />
       <meta
         property="og:image"
         content="https://whocanuse.com/whocanuse_banner.png"
       />
       <meta
         property="og:description"
-        content="A tool that brings attention and understanding to how color contrast can affect people with different visual impairments."
+        content="Un outil qui sensibilise à la manière dont le contraste des couleurs peut affecter les personnes souffrant de différentes déficiences visuelles et qui permet de mieux les comprendre."
       />
       <meta property="og:site_name" content={siteTitle || title} />
       <meta property="twitter:card" content="summary_large_image" />
@@ -35,11 +35,11 @@ export default function SEO({ title, background, foreground }) {
         property="twitter:image"
         content="https://whocanuse.com/whocanuse_banner.png"
       />
-      <meta property="twitter:creator" content="@CoreyGinnivan" />
-      <meta property="twitter:title" content="WhoCanUse" />
+      <meta property="twitter:creator" content="@OnlineCreation" />
+      <meta property="twitter:title" content="Contraste•OnlineCreation" />
       <meta
         property="twitter:description"
-        content="A tool that brings attention and understanding to how color contrast can affect people with different visual impairments."
+        content="Un outil qui sensibilise à la manière dont le contraste des couleurs peut affecter les personnes souffrant de différentes déficiences visuelles et qui permet de mieux les comprendre."
       />
       <link rel="icon" href="favicon.png" type="image/png" />
       <link rel="icon" href="favicon.ico" sizes="any" />

@@ -91,7 +91,7 @@ export class VisionRowAlt extends Component {
               trackColor={trackColor}
             >
               <Tippy
-                content={`Contrast: ${formatContrast(contrast)}`}
+                content={`Contraste : ${formatContrast(contrast)}`}
                 duration="0"
                 arrow={true}
                 placement="top"
@@ -115,7 +115,7 @@ export class VisionRowAlt extends Component {
         </VisionCellWrapper>
         <VisionCellWrapper
           style={{ marginRight: 'auto' }}
-          data-th="Situational Vision Event"
+          data-th="Événement de vision situationnelle"
         >
           <Flex flexDirection="column">
             <Flex flexDirection="row" alignItems="center">
@@ -140,7 +140,7 @@ export class VisionRowAlt extends Component {
               bold={bold}
               fontSize={fontSize}
             >
-              What I see
+              Ce que je vois
             </SimulationFilter>
           </Simulation>
         </VisionCellWrapper>

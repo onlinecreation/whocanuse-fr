@@ -67,8 +67,8 @@ export class PercentBars extends Component {
     return (
       <CompleteWrapper>
         <TextWrapper>
-          <SmallText style={{ color: theme.color.green }}>{positivePercent}% can</SmallText>
-          <SmallText style={{ color: theme.color.red }}>{negativePercent}% will struggle</SmallText>
+          <SmallText style={{ color: theme.color.green }}>{positivePercent}% peut</SmallText>
+          <SmallText style={{ color: theme.color.red }}>{negativePercent}% auront des difficultés</SmallText>
         </TextWrapper>
         <BarWrapper>
           <PositiveBar positivePercent={positivePercent} />

@@ -1,5 +1,5 @@
 export function formatWcagGuidelines(AAContrast, AAAContrast) {
-  return `WCAG (Web Content Accessibility Guidelines) grades for general accessibility contrast ratios.
+  return `Notes WCAG (Règles pour l’accessibilité des contenus Web) pour les rapports de contraste en matière d'accessibilité générale.
 
-A ${AAContrast} is required for AA, and ${AAAContrast} for AAA`;
+  Un ${AAContrast} est requis pour la note AA, et un ${AAAContrast} pour AAA.`;
 }

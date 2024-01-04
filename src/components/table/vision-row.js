@@ -212,10 +212,10 @@ export const VisionRow = ({
               bold={bold}
               fontSize={fontSize}
             >
-              What I see
+              Ce que je vois
             </SimulationFilter>
           </Simulation>
-          <Tooltip label="Rough estimation of worldwide population with this vision impairment. Can vary between genders.">
+          <Tooltip label="Estimation approximative de la population mondiale souffrant de cette déficience visuelle. Peut varier selon le sexe.">
             <Flex fontSize="xs" mt={2} alignItems="center">
               <Flex mr={1} mt={-1}>
                 <PopIcon />
@@ -223,7 +223,7 @@ export const VisionRow = ({
               <Text fontWeight={700} mr={1}>
                 {percent}%
               </Text>
-              <Text>affected</Text>
+              <Text>affecté</Text>
             </Flex>
           </Tooltip>
         </Flex>

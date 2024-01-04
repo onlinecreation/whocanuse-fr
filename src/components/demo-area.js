@@ -34,7 +34,7 @@ const TextWrapper = styled('div')({
 export const DemoArea = ({ children, ...rest }) => {
   return (
     <DemoAreaWrapper {...rest}>
-      <TextWrapper>The quick brown fox jumps over the lazy dog</TextWrapper>
+      <TextWrapper>Le vif zéphyr jubile sur les kumquats du clown gracieux</TextWrapper>
     </DemoAreaWrapper>
   )
 }

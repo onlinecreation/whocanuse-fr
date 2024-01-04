@@ -8,6 +8,6 @@ export function renderPassFail(rating) {
   return rating !== 'FAIL' ? (
     <PassFailTextWrapper pass={true}>{rating}</PassFailTextWrapper>
   ) : (
-    <PassFailTextWrapper pass={false}>Fail</PassFailTextWrapper>
+    <PassFailTextWrapper pass={false}>Échec</PassFailTextWrapper>
   )
 }

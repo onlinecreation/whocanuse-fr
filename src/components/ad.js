@@ -11,7 +11,7 @@ const StyledAd = styled('div')`
   justify-self: center;
   &:before {
     content:
-      "If you'd like to help keep WhoCanUse maintained, please consider turning off your AdBlocker for us (it's cool if you don't want to, no pressure)";
+      "";
     position: absolute;
     top: 0;
     display: flex;
@@ -35,12 +35,9 @@ export const Ad = ({ children }) => {
   const ref = React.useRef(null)
   React.useEffect(() => {
     if (ref.current) {
-      const script = document.createElement('script')
-      script.id = '_carbonads_js'
-      script.src =
-        '//cdn.carbonads.com/carbon.js?serve=CE7DE2QU&placement=whocanusecom'
-      script.async = true
-      ref.current.appendChild(script)
+      const txt = document.createElement('p')
+      txt.innerHTML = '<a href="https://commercedigital.fr/" target="_blank"><strong>Créer une e-boutique en 2 heures</strong><br>Téléchargez le e-book vidéo et découvrez comment démarrer votre affaire en ligne en moins de deux heures.<br>Pour seulement 9,99&nbsp;€, obtenez les clés pour changer de vie grace au web&nbsp;!</a>';
+      ref.current.appendChild(txt)
     }
   }, [])
 
