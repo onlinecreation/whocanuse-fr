@@ -66,13 +66,13 @@ The following provides some guidelines for pull requests:
     Navigate to wherever you cloned the whocanuse repo to and install all the things:
 
     ```sh
-    npm install
+    yarn
     ```
 
 2.  **Start the dev server.**
 
     ```sh
-    npm run dev
+    yarn dev
     ```
 
     Your site is now running at `http://localhost:3000`!

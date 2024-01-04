@@ -23,7 +23,7 @@ export default function SEO({ title, background, foreground }) {
       <meta property="og:title" content="Contraste•OnlineCreation" />
       <meta
         property="og:image"
-        content="https://whocanuse.com/whocanuse_banner.png"
+        content="https://contraste.onlinecreation.pro/whocanuse_banner.png"
       />
       <meta
         property="og:description"
@@ -33,7 +33,7 @@ export default function SEO({ title, background, foreground }) {
       <meta property="twitter:card" content="summary_large_image" />
       <meta
         property="twitter:image"
-        content="https://whocanuse.com/whocanuse_banner.png"
+        content="https://contraste.onlinecreation.pro/whocanuse_banner.png"
       />
       <meta property="twitter:creator" content="@OnlineCreation" />
       <meta property="twitter:title" content="Contraste•OnlineCreation" />

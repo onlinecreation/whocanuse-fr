@@ -89,7 +89,7 @@ export const About = () => (
 
       <MediumText>Votre calcul est erroné, le total n'est pas de 100 % !</MediumText>
       <Text>
-        Bien vu ! (haha) Les données démographiques fournies sont des estimations pour des déficiences individuelles et ne couvrent pas le grand nombre de déficiences visuelles dans le monde. Il s'agit de vous faire comprendre non seulement{' '}<strong>comment</strong>{' '}le contraste des couleurs affecte différentes personnes, mais aussi{' '}<strong>qui</strong>{' '}il peut affecter.
+        Bien vu&nbsp;! (haha) Les données démographiques fournies sont des estimations pour des déficiences individuelles et ne couvrent pas le grand nombre de déficiences visuelles dans le monde. Il s'agit de vous faire comprendre non seulement{' '}<strong>comment</strong>{' '}le contraste des couleurs affecte différentes personnes, mais aussi{' '}<strong>qui</strong>{' '}il peut affecter.
       </Text>
 
       <MediumText>
@@ -129,24 +129,28 @@ export const About = () => (
     </AboutWrapper>
     <Author>
       <ButtonWrapper>
+        <Text>GitHub </Text>
+        &nbsp;:&nbsp;
         <Link
           fontWeight="bold"
           href="https://github.com/coreyginnivan/whocanuse/"
           aria-label="coreyginnivan/whocanuse sur GitHub"
           isExternal
         >
-          GitHub (WhoCanUse.com)
+          WhoCanUse.com
         </Link>
-
+        &nbsp;&times;&nbsp;
         <Link
           fontWeight="bold"
           href="https://github.com/onlinecreation/whocanuse-fr"
           aria-label="onlinecreation/whocanuse-fr sur GitHub"
           isExternal
         >
-          GitHub (Contraste•OnlineCreation)
+          &#127467;&#127479; Traduction
         </Link>
+      </ButtonWrapper>
 
+      <ButtonWrapper>
         <Link
           fontWeight="bold"
           style={{ marginLeft: '10px' }}
@@ -156,7 +160,8 @@ export const About = () => (
         >
           Donner à WhoCanUse.com
         </Link>
-
+      </ButtonWrapper>
+      <ButtonWrapper>
         <Link
           fontWeight="bold"
           style={{ marginLeft: '10px' }}
@@ -168,7 +173,7 @@ export const About = () => (
         </Link>
       </ButtonWrapper>
       <div style={{ display: 'flex' }}>
-        <Text>Créé &amp; maintenu par</Text>
+        <Text>Créé et maintenu par</Text>
         <Link
           href="https://twitter.com/coreyginnivan"
           isExternal
@@ -187,6 +192,9 @@ export const About = () => (
           />
           @CoreyGinnivan
         </Link>
+      </div>
+
+      <div style={{ display: 'flex' }}>
         <Text>Traduit en français par</Text>
         <Link
           href="https://onlinecreation.pro"

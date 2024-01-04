@@ -11,7 +11,7 @@ export function getWcagScore(fontSizeNum, bold, contrast) {
     } else if (contrast >= 3) {
       wcagGrade = "AA";
     } else {
-      wcagGrade = "ÉCHEC";
+      wcagGrade = "FAIL";
     }
   } else if (fontSizeNum) {
     tooltip = formatWcagGuidelines(4.5, 7);
@@ -20,10 +20,10 @@ export function getWcagScore(fontSizeNum, bold, contrast) {
     } else if (contrast >= 4.5) {
       wcagGrade = "AA";
     } else {
-      wcagGrade = "ÉCHEC";
+      wcagGrade = "FAIL";
     }
   } else {
-    wcagGrade = "ÉCHEC";
+    wcagGrade = "FAIL";
     tooltip =
       "Bien que cela ne soit pas officiel, la pratique généralement acceptée est une taille de police minimale de 15 px pour répondre aux normes AA.";
   }

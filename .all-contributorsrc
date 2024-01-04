@@ -12,6 +12,7 @@
       "profile": "https://github.com/severn101",
       "contributions": [
         "code"
+      ]
     },
     {
       "login": "jessbudd",
@@ -21,7 +22,9 @@
       "contributions": [
         "content",
         "a11y"
+      ]
     },
+    {
       "login": "stringyland",
       "name": "Julie Grundy",
       "avatar_url": "https://avatars3.githubusercontent.com/u/3842742?v=4",
@@ -55,7 +58,7 @@
       "name": "Mike",
       "avatar_url": "https://avatars0.githubusercontent.com/u/1320567?v=4",
       "profile": "http://madebymike.com.au",
-       "contributions": [
+      "contributions": [
         "infra",
         "code"
       ]
@@ -78,6 +81,16 @@
       "contributions": [
         "infra",
         "code"
+      ]
+    },
+    {
+      "login": "onlinecreation",
+      "name": "OnlineCreation",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4477717?v=4",
+      "profile": "https://onlinecreation.pro",
+      "contributions": [
+        "code",
+        "translation"
       ]
     }
   ],

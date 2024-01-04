@@ -29,7 +29,7 @@ export const SmallInfoBars = ({ foreground, background, bold, fontSize }) => {
       <Flex justifyContent="space-between" w="full">
         <Text fontWeight="medium">Classification WCAG</Text>
         <Text fontWeight="extrabold" color={pass ? 'green.600' : 'red.600'}>
-          {wcagGrade}
+          {wcagGrade == "FAIL" ? "Échec" : wcagGrade}
         </Text>
       </Flex>
     </HStack>

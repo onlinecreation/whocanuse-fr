@@ -1,10 +1,10 @@
 export default {
   siteMetadata: {
-    title: 'WhoCanUse',
+    title: 'Contraste•OnlineCreation',
     description:
-      'A tool that brings attention and understanding to how color contrast can affect people with different visual impairments.',
-    url: 'https://whocanuse.com',
-    image: 'https://whocanuse.com/whocanuse_banner.png',
+      'Un outil qui sensibilise à la manière dont le contraste des couleurs peut affecter les personnes souffrant de différentes déficiences visuelles et qui permet de mieux les comprendre.',
+    url: 'https://contraste.onlinecreation.pro/',
+    image: 'https://contraste.onlinecreation.pro/whocanuse_banner.png',
     twitter: '@CoreyGinnivan',
   },
 }

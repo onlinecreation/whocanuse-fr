@@ -91,7 +91,7 @@ export class VisionRowAlt extends Component {
               trackColor={trackColor}
             >
               <Tippy
-                content={`Contraste : ${formatContrast(contrast)}`}
+                content={`Contraste : ${formatContrast(contrast)}`}
                 duration="0"
                 arrow={true}
                 placement="top"
